@@ -57,5 +57,5 @@ class TaskTrackingCLI(cmd.Cmd):
         print()
         return stop
 
-if __name__ == '__main__':
+if __name__ == '__basic_cli__':
     TaskTrackingCLI().cmdloop()
